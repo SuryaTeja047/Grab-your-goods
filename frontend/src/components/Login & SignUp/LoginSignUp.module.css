@@ -1,0 +1,45 @@
+.authinfo{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    width: calc(100% - 805px);
+    gap: 30px;
+}
+.authinfo form input{
+    all: unset;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+.CreateButton{
+    all: unset;
+    width: 100%;
+    text-align: center;
+    background-color: #DB4444;
+    height: 40px;
+    color:white;
+    cursor: pointer;
+}
+.CreateButton:hover{
+    background-color: rgb(233, 34, 34);
+}
+.authimage{
+    width:805px;
+    height: 100%;
+    background-color: #CBE4E8;
+}
+.cont{
+    display: flex;
+    gap: 20px;
+    height: calc(100vh - 72px);
+    align-items: center;
+}
+.cont a{
+    text-decoration: none;
+    color: red;
+}
+.btn{
+display: flex;
+justify-content: space-between;
+gap: 150px;
+}

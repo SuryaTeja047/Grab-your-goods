@@ -1,0 +1,34 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 24px;
+}
+.linkitem {
+    text-decoration: none;
+    color: black;
+}
+.linkitem:hover{
+    text-decoration: underline;
+}
+.active{
+    text-decoration: underline;
+    color: black;
+}
+.searchbox{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbox input{
+    all:unset;
+    margin:5px;
+}

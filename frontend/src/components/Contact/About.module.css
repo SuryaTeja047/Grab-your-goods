@@ -1,0 +1,51 @@
+.contactmain{
+    height: calc(100vh - 74px);
+    display: flex;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    gap: 50px;
+    justify-content:center;
+}
+.contactInfo{
+    max-width:340px;
+    max-height: 457px;
+    align-items: center;
+    justify-content: center;
+    line-height: 45px;
+}
+.contactForm form input,textarea{
+    all: unset;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.contactForm form{
+    padding: 10px;
+}
+.contactForm form .details{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactForm form textarea{
+    height: 207px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn button{
+    all: unset;
+    width: 25%;
+    text-align: center;
+    background-color: #DB4444;
+    height: 40px;
+    color:white;
+    cursor: pointer;
+}

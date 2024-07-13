@@ -1,0 +1,40 @@
+.footerContainer{
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.innerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.blocks{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.blocks{
+    max-width: 165px;
+}
+.blocks p{
+    list-style: none;
+}
+.blocks p a{
+    color: white;
+    text-decoration: none;
+}
+.blocks p a:hover{
+    color:rgb(225, 223, 223);
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.copyright{
+    align-items: center;
+    padding: 5px;
+    color: grey;
+}

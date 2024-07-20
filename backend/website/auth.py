@@ -10,4 +10,3 @@ def login_user():
 @auth.route('/signup')
 def register_user():
     return
-
